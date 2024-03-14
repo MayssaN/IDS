@@ -1,0 +1,218 @@
+:root {
+    --color-white: #ffffff;
+    --color-yellow: #ffd317;
+    --color-blue: #00adee;
+    --color-red: #EB1A3A;
+    --color-green: #bdd630;
+    --color-dark-green: #73be44;
+    --color-orange: #fd8103;
+    --color-purple: #bb00ff;
+    --color-pink: #ff00ff;
+}
+
+/* Reset styles for links */
+a {
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* Remove underline */
+
+}
+
+/* Reset styles for visited links */
+a:visited {
+    color: inherit; /* Inherit text color for visited links */
+}
+
+/* Reset styles for hovered links */
+a:hover {
+    text-decoration: none;
+}
+
+/* Reset styles for active links (while clicking) */
+a:active {
+    color: inherit; /* Inherit text color for active links */
+}
+
+
+.svg-background {
+    width: 100px;
+    height: 100px;
+    background-image: url('infographic.svg');
+}
+
+.semi-circle-infographic {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.infographic-circle {
+    min-height: 500px;
+    max-height: 800px;
+    width: 100%;
+    max-width: 1200px;
+
+    .semi-circ-group.section-lower {
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            translate: 0px 10px;
+        }
+    }
+
+    .semi-circ-group.section-upper {
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            translate: 0px -10px;
+        }
+    }
+
+    .semi-circ-group.section-upper.s-left {
+        &:hover {
+            translate: -5px -2px;
+        }
+    }
+
+    .semi-circ-group.section-upper.s-right {
+        &:hover {
+            translate: 5px 1px;
+        }
+    }
+
+    .semi-circ-group.section-lower.s-right {
+        &:hover {
+            translate: 5px 1px;
+        }
+    }
+
+    .semi-circ-group.section-lower.s-left {
+        &:hover {
+            translate: -5px -2px;
+        }
+    }
+
+    @media screen and (max-width: 788px) {
+        & {
+            display: none;
+        }
+
+    }
+}
+
+/*-------------------------------*/
+.content-container {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    gap: 2em;
+    padding: 2em;
+    @media screen and (min-width: 788px) {
+        & {
+            display: none;
+        }
+    }
+
+    .chunk{
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        flex-wrap: wrap;
+        @media screen and (max-width: 677px) {
+            & {
+                flex-direction: column;
+            }
+        }
+    }
+}
+.card {
+    --box-shadow-color: rgba(31, 31, 31, 0.94); /* Default shadow color */
+
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    color: black;
+    min-width: 11em;
+    min-height: 21em;
+    border-radius: 20px;
+    gap: 0.5em;
+    box-shadow: 15px 15px 0px var(--box-shadow-color); /* Using CSS variable for shadow color */
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 10px 10px 0px var(--box-shadow-color); /* Using CSS variable for hover shadow color */
+    }
+    & img {
+        width: 8em;
+        filter: brightness(0) saturate(100%)
+    }
+    .title {
+        font-weight: bold;
+        font-size: 2em;
+    }
+    .desc{
+        padding-top: 0;
+        font-size: 1.5em;
+        line-height: 1.5em;
+
+    }
+}
+/*-------------------------------*/
+.IDS-CYBER-BG {
+    transition:  all 1.3s ease-in-out;
+}
+.transition-fill {
+    fill: rgba(175, 168, 168, 0.21);
+    transition: fill 0.3s ease-in-out;
+}
+
+/* Define reset for fill property */
+.reset-fill {
+    fill: #E8E1E100;
+    transition: fill 0.3s ease-in-out;
+}
+/*----------------------------------*/
+
+.is-white {
+    background: var(--color-white);
+}
+
+.is-yellow {
+    --box-shadow-color: rgba(255, 230, 0, 0.8); /* Yellow shadow color */
+    background: var(--color-yellow);
+}
+
+.is-blue {
+    --box-shadow-color: rgba(0, 173, 238, 0.8); /* Blue shadow color */
+    background: var(--color-blue);
+}
+
+.is-red {
+    --box-shadow-color: rgba(235, 26, 58, 0.8); /* Red shadow color */
+    background: var(--color-red);
+}
+
+.is-green {
+    --box-shadow-color: rgba(189, 214, 48, 0.8); /* Green shadow color */
+    background: var(--color-green);
+}
+
+.is-dark-green {
+    --box-shadow-color: rgb(160, 253, 160); /* Green shadow color */
+    background: var(--color-dark-green);
+}
+
+.is-orange {
+    --box-shadow-color: rgba(253, 129, 3, 0.8); /* Green shadow color */
+    background: var(--color-orange);
+}
+
+.is-purple {
+    --box-shadow-color: rgb(151, 57, 232); /* Green shadow color */
+    background: var(--color-purple);
+}
+
+.is-pink {
+    --box-shadow-color: rgb(227, 100, 225); /* Green shadow color */
+    background: var(--color-pink);
+}
+
