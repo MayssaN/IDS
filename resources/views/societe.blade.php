@@ -117,6 +117,10 @@
     <!-- Feature Start -->
     <div class="feature">
         <div class="container">
+              <img class="globe-1" src="{{ asset('mainassets2/img/globe-sm.png') }}" alt="Image">
+                            <img class="globe-2" src="{{ asset('mainassets2/img/globe-sm.png') }}" alt="Image">
+                            <img class="globe-3" src="{{ asset('mainassets2/img/globe-sm.png') }}" alt="Image">
+                            <img class="globe-4" src="{{ asset('mainassets2/img/globe-sm.png') }}" alt="Image">
             <div class="row align-items-end">
                 <div class="col-md-6">
                     <div class="feature-img">

@@ -121,6 +121,11 @@
     <!-- About Start -->
     <div id="about" class="about">
         <div class="container">
+                            <img class="globe-1" src="{{ asset('mainassets2/img/globe-sm.png') }}" alt="Image">
+                            <img class="globe-2" src="{{ asset('mainassets2/img/globe-sm.png') }}" alt="Image">
+                            <img class="globe-3" src="{{ asset('mainassets2/img/globe-sm.png') }}" alt="Image">
+                            <img class="globe-4" src="{{ asset('mainassets2/img/globe-sm.png') }}" alt="Image">
+            
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="about-img">
