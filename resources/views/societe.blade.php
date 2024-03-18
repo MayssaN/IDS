@@ -262,7 +262,7 @@
     <div id="aide" class="aide">
 
         <div class="container">
-            <p style="text-transform: uppercase; color:white ;   text-align: center; font-size: 20px ; word-spacing: 20px">
+            <p style="color:white ;   text-align: center; font-size: 20px ; font-family:arimo">
                 Écrivez-nous, nous sommes à votre écoute pour répondre à toutes vos questions!
             </p>
             <p
