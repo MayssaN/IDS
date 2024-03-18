@@ -130,10 +130,10 @@
                 <div class="col-md-6">
                     <div class="section-header">
                         <p>
-                        <h2 style="text-transform: uppercase; font-weight: 900; color:aqua">Notre histoire?</h2>
-                        <p>Our Feature</p>
+                        <h2 >Notre histoire?</h2>
+                        <p style="color:white"> Our Feature</p>
                     </div>
-                    <p>
+                    <p style=" font-size: 16px;  color : black ;  text-align: justify" >
                         Quelle idée merveilleuse en 2008 de vouloir créer IDS INFORMATIQUE !
                         S’il y a des projets dans une vie qui vous rendent plus forts, qui vous apportent éclat,
                         épanouissement et connaissances ; celui de fonder une Entreprise en fait partie.
@@ -155,44 +155,122 @@
             <br>
             <div>
 
-
+                  <p style="font-size: 16px;  color : black;  text-align: justify">
                 Toujours soutenus et dans une constante envie de vouloir aller plus loin, fiers de la confiance que nos
                 partenaires nous portent, nous totalisons à ce jour près de 700 clients en ayant eu le privilège d’avoir
                 mené à leurs côtés, plus de 280 projets de grande ampleur à travers le globe, et nous continuons jour
-                après jour à en réaliser de nouveaux.
+                après jour à en réaliser de nouveaux.</p>
+              <p style="font-size: 16px;  color : black;  text-align: justify">  
                 Aujourd’hui, forts de notre expérience et entourés de collaborateurs performants, nous formons une
                 équipe dynamique toujours en quête de nouveaux projets et de nouvelles rencontres.
                 Parce que « l’Humain » est un des piliers de notre philosophie de travail, nous souhaitons avant tout
                 comprendre les problématiques de chacun afin de travailler ensemble pour améliorer, développer
-                l’existant et nourrir le souhait commun d’évoluer ensemble.
-                Nous souhaitons accompagner nos partenaires tout au long de leur développement, évoluer conjointement
+                l’existant et nourrir le souhait commun d’évoluer ensemble.</p>
+                <p style="font-size: 16px;  color : black;  text-align: justify">
+                    Nous souhaitons accompagner nos partenaires tout au long de leur développement, évoluer conjointement
                 dans la Bienveillance et le Respect, avec ce lien précieux qu’est la confiance.
                 Cette formidable expérience n’aurait jamais vu le jour sans vous, chers partenaires, alors Merci.
                 Si vous aussi vous souhaitez faire partie de cette formidable aventure, écrivons la suite de notre
-                histoire ensemble !
+                histoire ensemble !</p>
 
             </div>
 
-            <button type="button">Click me</button>
+            <!--<button class="btnsocite" type="button">Click me</button>-->
+            <div  class="btnsocite">
+                      
+                        <a class="btn" href="/contact">Començons ensemble</a>
+
+            </div>
+
 
         </div>
     </div>
     <!-- Feature End -->
 
 
+ <!-- Fact Start -->
+ <div class="factSociete">
+    <div class="container">
+        <div class="row align-items-center">
+
+          
+                  
+            <div class="col-lg-3 col-md-5">
+                
+                <div class="fact-item">
+                    <h2  >98% clients Satifaites</h2>
+
+                    <div class="about-text">
+                        <p>
+                            Une équipe attentive, humaine
+                            et professionelle.
+                            <br />
+                            votre satisfaction est notre prioriete
+                        </p>
+
+                    </div>
+
+                </div>
+    
+        </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="fact-item">
+                    <h2  >16 ans d’expertise </h2>
+                    <div class="about-text">
+                        <p>
+                            Un ADN identifié par le partage des connaissances et des savoir faire</p>
+
+                    </div>
+                </div>
+            </div>
+                    <div class="col-lg-3 col-md-6">
+                <div class="fact-item">
+                    <h2 >280 Projets menés à travers le monde </h2>
+                    <div class="about-text">
+                        <p>
+                        
+                                  La volonté de l’excellence et des valeurs fortes pour concrétiser tous vos projets
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="fact-item">
+                    <h2  >2000 Interventions par an</h2>
+                    <div class="about-text">
+                        <p>
+                                            Une réactivité et une disponibilité affirmé pour des relations de confiances mutuelles 
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+   
+    
+        </div>
+    </div>
+</div>
+<!-- Fact Start -->
+
+
+
     <div id="aide" class="aide">
 
-        <div class="txt">
-            <p style="text-transform: uppercase; font-weight: 900; color:white ;   text-align: center;">
+        <div class="container">
+            <p style="text-transform: uppercase; color:white ;   text-align: center; font-size: 20px ; word-spacing: 20px">
                 Écrivez-nous, nous sommes à votre écoute pour répondre à toutes vos questions!
             </p>
             <p
                 style="text-transform: uppercase; font-weight: 900; color:white ;    text-align: center; font-family:brosh ; font-size:90px">
                 besoin d’aide ?
             </p>
-            <button style="position: absolute;
-            top: 68%;
-            left: 50%;" type="button">Click me</button>
+            <div class="besoin">
+
+
+                <a class="btn2" href="/contact">Començons ensemble</a>
+           <!-- <button class="btn2" type="button">Contactez-nous</button>-->
+            </div>
         </div>
 
 

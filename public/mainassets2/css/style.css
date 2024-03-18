@@ -584,6 +584,7 @@ a:focus {
 .fact {
     position: relative;
     width: 100%;
+   
     background: #a6a6a6;
     padding: 15px 0 15px 0;
 }
@@ -895,6 +896,7 @@ a:focus {
     background: #a6a6a6;
     padding: 45px 0;
     overflow: clip;
+    margin-top: -45px;
 }
 
 .feature .col-md-6 {
@@ -1854,21 +1856,170 @@ input[id^="lcc-"]:disabled + span {
     position: relative;
     background: url('../img/aide.png');
     background-size: cover;
-    
+    margin-bottom: -45px;
     width: 100%;
     height: 30em;
     padding: 45px 0 15px 0;
 
 }
 
-.aide .txt {
+.aide .container {
+    
 
     padding: 80px 0px 80px 0px;
 }
 
-.aide .txt .btn
+.btnsocite
 {
+/*
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    left: 8vw;
+    top: 74%;
+    width: 15em;
+    padding: 20px 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: var(--light-blue);
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    transition: .3s;
+    @media (max-width: 576px){
+        & {
+             position: relative;
+            left: unset;
+        }
+    }*/
 
 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
     
 }
+
+.btnsocite .btn {
+
+
+    width: 15em;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: var(--light-blue);
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    transition: .3s;
+    font-weight: bold;
+}
+ .besoin {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+   
+ }
+ .besoin .btn2 
+ {  
+
+    text-align: center;
+ 
+padding: 10px ;
+    width: 15em;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    transition: .3s;
+    font-weight: bold;
+    height: 3em;
+
+ }
+
+
+
+
+
+ .factSociete {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    background: #a6a6a6;
+    padding: 15px 0; /* Add padding as needed */
+    display: flex; /* Add Flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+ .factSociete .about-text{
+    text-wrap: balance;
+    overflow-wrap: break-word;
+    padding:  0.7em;
+}
+.factSociete .about-text p{
+    /* overflow-wrap: break-word; */
+    /* hyphens: auto; */
+   color : black ; 
+}
+.factSociete .fact-item {
+    position: relative;
+    width: 100%;
+    
+    max-height: 20em;
+    min-height: 20em;
+    margin-bottom: 30px;
+    padding: 30px 0 25px 0;
+    text-align: center;
+   /* background: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);*/
+    transition: .3s;
+}
+.factSociete .fact-item img{
+    filter: brightness(0) saturate(100%) invert(77%) sepia(92%) saturate(686%) hue-rotate(128deg) brightness(102%) contrast(91%);
+}
+
+.factSociete .fact-item:hover {
+    border-color: rgba(0, 0, 0, .1);
+    box-shadow: none;
+}
+
+ .factSociete .fact-item img {
+    max-height: 50px;
+    margin-bottom: 15px;
+}
+
+.factSociete .fact-item h2 {
+    font-size: 18px;
+  color: #1eedeb;
+    letter-spacing: 1px;
+
+}
+
+.factSociete .container {
+
+
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+
+.factSociete .container .align-items-center
+{
+
+    align-items: center;
+    height: 200px;
+}
+.factSociete .col-lg-3,
+.factSociete .col-md-5 {
+    height: 100%;
+}
+

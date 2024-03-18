@@ -140,7 +140,7 @@
                 <div class="col-md-6">
                     <div class="section-header">
                         <h2>Notre ADN ?</h2>
-                        <p>
+                        <p style="color:white">
                             En savoir plus sur nous</p>
 
                     </div>
@@ -239,7 +239,7 @@
                         <div class="about-text">
                             <p>
                             
-La volonté de l’excellence et des valeurs fortes pour concrétiser tous vos projets
+                                      La volonté de l’excellence et des valeurs fortes pour concrétiser tous vos projets
                             </p>
                         </div>
                     </div>
@@ -250,7 +250,8 @@ La volonté de l’excellence et des valeurs fortes pour concrétiser tous vos p
                         <h2>2000 Interventions par an</h2>
                         <div class="about-text">
                             <p>
-                            Une réactivité et une disponibilité affirmé pour des relations de confiances mutuelles 
+                                                Une réactivité et une disponibilité affirmé pour des relations de confiances mutuelles 
+                            </p>
 
                         </div>
                     </div>
