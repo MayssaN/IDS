@@ -191,7 +191,7 @@
  <!-- Fact Start -->
  <div class="factSociete">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row">
 
 
 

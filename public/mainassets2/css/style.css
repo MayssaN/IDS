@@ -1960,8 +1960,8 @@ padding: 10px ;
     background: #a6a6a6;
     padding: 15px 0; /* Add padding as needed */
     display: flex; /* Add Flexbox */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    /*justify-content: center; !* Center content horizontally *!*/
+    align-items: flex-start; /* Center content vertically */
 }
  .factSociete .about-text{
     text-wrap: balance;
@@ -1978,9 +1978,11 @@ padding: 10px ;
 
 
 .factSociete .fact-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     position: relative;
     width: 100%;
-
     max-height: 20em;
     min-height: 10em;
     margin-bottom: 10px;
