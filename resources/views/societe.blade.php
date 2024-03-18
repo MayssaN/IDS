@@ -73,9 +73,9 @@
                     <div id="navbar-nav" class="navbar-nav ml-auto">
                         <a href="/" class="nav-item nav-link">Accueil</a>
                         <a href="/societe" class="nav-item nav-link active">Société</a>
-                        <a href="/services" class="nav-item nav-link">Services</a>
-                        <a href="/contact" class="nav-item nav-link">Contact</a>
+                        <a href="/#services" class="nav-item nav-link">Services</a>
                         <a href="/#partners" class="nav-item nav-link">Partenaires</a>
+                        <a href="/contact" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
