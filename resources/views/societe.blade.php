@@ -21,6 +21,8 @@
     <link href="{{ asset('mainassets2/lib/animate/animate.min.css') }}" rel="stylesheet">
     <link href="{{ asset('mainassets2/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="{{ asset('mainassets2/css/infographic.css') }}" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/broshk4blue" rel="stylesheet">
+        <link href="https://db.onlinewebfonts.com/c/61b544857df9ad5266379c06f3076e38?family=Arimo" rel="stylesheet">
 
     <!-- Template Stylesheet  -->
     <link href="{{ asset('mainassets2/css/style.css') }}" rel="stylesheet">
@@ -91,7 +93,7 @@
 
                     <div class="carousel-text" style="padding: 5em 0em 0em 2em">
 
-                        <h1 style="text-transform: uppercase; font-weight: 900; color :white">Societe</h1>
+                        <h1 style="text-transform: uppercase; font-weight: 900; color :white ;font-family: 'BroshK4Blue', sans-serif ; font-size:80px">Société</h1>
 
                     </div>
                 </div>
@@ -199,7 +201,7 @@
 
                 <div class="fact-item">
                     <h2 style="font-size:25px">98%</h2>
-                    <h2 > clients Satifaites</h2>
+                    <h2 > clients Satifaits</h2>
 
                     <div class="about-text">
                         <p>
@@ -262,11 +264,11 @@
     <div id="aide" class="aide">
 
         <div class="container">
-            <p style="color:white ;   text-align: center; font-size: 20px ; font-family:arimo">
+            <p style="color:white ;   text-align: center; font-size: 20px ; font-family:'Arimo', sans-serif ">
                 Écrivez-nous, nous sommes à votre écoute pour répondre à toutes vos questions!
             </p>
             <p
-                style="text-transform: uppercase; font-weight: 900; color:white ;    text-align: center; font-family:brosh ; font-size:90px">
+                style="font-weight: 900; color:white ;    text-align: center; font-family: 'BroshK4Blue', sans-serif; font-size:90px">
                 besoin d’aide ?
             </p>
             <div class="besoin">

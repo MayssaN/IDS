@@ -32,6 +32,10 @@
     <link rel="stylesheet" href=" {{ asset('mainassets/css/style.css') }}" type="text/css">
     <link rel="stylesheet" href=" {{ asset('mainassets2/css/style.css') }}" type="text/css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+    <link href="https://fonts.cdnfonts.com/css/broshk4blue" rel="stylesheet">
+
     <style type="text/css">
         #map {
             height: 400px;
@@ -138,7 +142,7 @@
 
                     <div class="carousel-text" style="padding: 5em 0em 0em 2em">
 
-                        <h1 style="text-transform: uppercase; font-weight: 900; color :white">Contact</h1>
+                        <h1 style="text-transform: uppercase; font-weight: 900; color :white;font-family: 'BroshK4Blue', sans-serif ;font-size:80px">Contact</h1>
 
                     </div>
                 </div>
@@ -163,7 +167,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 style="color:black">Contactez-nous pour toutes questions</h2>
-                <p  >Contact</p>
+                <p>Contact</p>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6">

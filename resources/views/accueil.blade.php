@@ -208,7 +208,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="fact-item">
                         <img src="{{ asset('mainassets2/img/icon-6.png') }}" alt="Icon">
-                        <h2>98% clients Satifaites</h2>
+                        <h2>98% clients Satifaits</h2>
 
                         <div class="about-text">
                             <p>
