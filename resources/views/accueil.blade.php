@@ -89,6 +89,7 @@
     <div class="carousel" style="margin-bottom:0">
         <div class="container-fluid">
             <div class="carousel-item">
+                
                 <div class="carousel-img">
                     <img src="{{ asset('mainassets2/img/BG-Home2.png') }}" alt="Image">
                 </div>
