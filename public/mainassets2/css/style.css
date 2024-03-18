@@ -9,7 +9,7 @@
 
 
 
-  
+
 /*---------------------
   Map
 -----------------------*/
@@ -25,7 +25,7 @@
 :root {
     --sub-color: #1a1b1b;
     --light-blue: #1eedeb;
-    --bg-color : #A6A6A6 ; 
+    --bg-color : #A6A6A6 ;
 }
 html {
   scroll-behavior: smooth;
@@ -37,10 +37,10 @@ body {
 }
 
 h1,
-h2, 
-h3, 
+h2,
+h3,
 h4,
-h5, 
+h5,
 h6 {
     color: #092a49;
     font-family: 'Oswald', sans-serif;
@@ -258,16 +258,16 @@ a:focus {
         background: rgba(161, 163, 165, 0.2)!important;
         z-index: 9;
     }
-    
+
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: var(--sub-color) !important;
     }
-    
+
     .page .navbar {
         background: #092a49 !important;
     }
-    
+
     .navbar a.nav-link {
         padding: 8px 15px;
         font-size: 14px;
@@ -276,16 +276,16 @@ a:focus {
     }
 }
 
-@media (max-width: 991.98px) {   
+@media (max-width: 991.98px) {
     .navbar {
         padding: 15px;
         background: var(--sub-color) !important;
     }
-    
+
     .navbar a.nav-link {
         padding: 5px;
     }
-    
+
     .navbar .dropdown-menu {
         box-shadow: none;
     }
@@ -475,15 +475,15 @@ a:focus {
     .carousel .carousel-text {
         height: calc(100vh - 105px);
     }
-    
+
     .carousel .carousel-text h1 {
         font-size: 35px;
     }
-    
+
     .carousel .carousel-text p {
         font-size: 16px;
     }
-    
+
     .carousel .carousel-text .btn {
         padding: 12px 30px;
         font-size: 15px;
@@ -497,11 +497,11 @@ a:focus {
     .carousel .carousel-text {
         height: calc(100vh - 70px);
     }
-    
+
     .carousel .carousel-text h1 {
         font-size: 30px;
     }
-    
+
     .carousel .carousel-text .btn {
         padding: 10px 25px;
         font-size: 15px;
@@ -513,7 +513,7 @@ a:focus {
     /* .carousel .carousel-text h1 {
         font-size: 25px;
     }
-    
+
     .carousel .carousel-text .btn {
         padding: 8px 20px;
         font-size: 14px;
@@ -584,7 +584,7 @@ a:focus {
 .fact {
     position: relative;
     width: 100%;
-   
+
     background: #a6a6a6;
     padding: 15px 0 15px 0;
 }
@@ -740,7 +740,7 @@ a:focus {
 
 .about .about-text p {
     font-size: 16px;
-    color :#000000 ; 
+    color :#000000 ;
 
 
 }
@@ -780,7 +780,7 @@ a:focus {
     position: relative;
     background: url('../img/bg-services.png');
     background-size: cover;
-    
+
     width: 100%;
     padding: 45px 0 15px 0;
 }
@@ -842,7 +842,7 @@ a:focus {
 .service .service-item p {
     margin-bottom: 10px;
     font-size: 16px;
-    
+
 }
 
 .service .service-item a {
@@ -864,7 +864,7 @@ a:focus {
     height: 2px;
     bottom: 20px;
     left: 35%;
-    /* right: 0; 
+    /* right: 0;
     background: #0796fe;
 }
 
@@ -986,7 +986,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 200px 0 50px 0;
-    
+
 }
 
 .team .team-item {
@@ -1596,7 +1596,7 @@ a:focus {
 
 .footer .footer-contact p i {
     width: 25px;
-   /* display: inline; 
+   /* display: inline;
     text-align: center;*/
 }
 
@@ -1867,7 +1867,7 @@ input[id^="lcc-"]:disabled + span {
 }
 
 .aide .container {
-    
+
 
     padding: 80px 0px 80px 0px;
 }
@@ -1904,8 +1904,8 @@ input[id^="lcc-"]:disabled + span {
     justify-content: center;
     align-items: center;
 
-   
-    
+
+
 }
 
 .btnsocite .btn {
@@ -1928,13 +1928,13 @@ input[id^="lcc-"]:disabled + span {
     justify-content: center;
     align-items: center;
     top: 30px;
-   
+
  }
- .besoin .btn2 
- {  
+ .besoin .btn2
+ {
 
     text-align: center;
- 
+
 padding: 10px ;
     width: 15em;
     font-size: 16px;
@@ -1956,7 +1956,7 @@ padding: 10px ;
  .factSociete {
     position: relative;
     width: 100%;
-    height: 200px; /* Adjust the height as needed */
+    /*height: 200px; !* Adjust the height as needed *!*/
     background: #a6a6a6;
     padding: 15px 0; /* Add padding as needed */
     display: flex; /* Add Flexbox */
@@ -1971,12 +1971,12 @@ padding: 10px ;
 .factSociete .about-text p{
     /* overflow-wrap: break-word; */
     /* hyphens: auto; */
-   color : black ; 
+   color : black ;
 }
 .factSociete .fact-item {
     position: relative;
     width: 100%;
-    
+
     max-height: 20em;
     min-height: 20em;
     margin-bottom: 30px;
@@ -2017,9 +2017,8 @@ padding: 10px ;
 
 .factSociete .container .align-items-center
 {
-
     align-items: center;
-    height: 200px;
+    /*height: 200px;*/
 }
 .factSociete .col-lg-3,
 .factSociete .col-md-5 {

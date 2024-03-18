@@ -160,7 +160,7 @@
                 partenaires nous portent, nous totalisons à ce jour près de 700 clients en ayant eu le privilège d’avoir
                 mené à leurs côtés, plus de 280 projets de grande ampleur à travers le globe, et nous continuons jour
                 après jour à en réaliser de nouveaux.</p>
-              <p style="font-size: 16px;  color : black;  text-align: justify">  
+              <p style="font-size: 16px;  color : black;  text-align: justify">
                 Aujourd’hui, forts de notre expérience et entourés de collaborateurs performants, nous formons une
                 équipe dynamique toujours en quête de nouveaux projets et de nouvelles rencontres.
                 Parce que « l’Humain » est un des piliers de notre philosophie de travail, nous souhaitons avant tout
@@ -177,7 +177,7 @@
 
             <!--<button class="btnsocite" type="button">Click me</button>-->
             <div  class="btnsocite">
-                      
+
                         <a class="btn" href="/contact">Començons ensemble</a>
 
             </div>
@@ -193,10 +193,10 @@
     <div class="container">
         <div class="row align-items-center">
 
-          
-                  
-            <div class="col-lg-3 col-md-5">
-                
+
+
+            <div class="col-lg-3 col-md-6">
+
                 <div class="fact-item">
                     <h2 style="font-size:25px">98%</h2>
                     <h2 > clients Satifaites</h2>
@@ -212,7 +212,7 @@
                     </div>
 
                 </div>
-    
+
         </div>
 
             <div class="col-lg-3 col-md-6">
@@ -232,7 +232,7 @@
                     <h2 >280 Projets menés à travers le monde </h2>
                     <div class="about-text">
                         <p>
-                        
+
                                   La volonté de l’excellence et des valeurs fortes pour concrétiser tous vos projets
                         </p>
                     </div>
@@ -244,14 +244,14 @@
                     <h2  > Interventions par an</h2>
                     <div class="about-text">
                         <p>
-                                            Une réactivité et une disponibilité affirmé pour des relations de confiances mutuelles 
+                                            Une réactivité et une disponibilité affirmé pour des relations de confiances mutuelles
                         </p>
 
                     </div>
                 </div>
             </div>
-   
-    
+
+
         </div>
     </div>
 </div>
