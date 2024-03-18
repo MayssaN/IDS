@@ -229,7 +229,7 @@
                     <div class="col-lg-3 col-md-6">
                 <div class="fact-item">
                     <h2 style="font-size:25px">280</h2>
-                    <h2 >280 Projets menés à travers le monde </h2>
+                    <h2 >Projets menés à travers le monde </h2>
                     <div class="about-text">
                         <p>
 
