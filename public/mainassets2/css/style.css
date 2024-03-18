@@ -5,7 +5,7 @@
 @import url(./ContactStyle.css);
 @import url(./partner.css);
 @import url(./test.css);
-
+@import url('https://fonts.cdnfonts.com/css/blanka');
 
 
 
@@ -365,7 +365,7 @@ a:focus {
 .carousel .carousel-text p {
     color: #ffffff;
     text-align: center;
-    font-size: 20px;
+    font-size: 23px;
     margin-bottom: 25px;
 }
 
@@ -380,9 +380,9 @@ a:focus {
     padding: 20px 5px;
     font-size: 16px;
     letter-spacing: 1px;
-    color: #ffffff;
-    background: var(--light-blue);
-    border: 2px solid #ffffff;
+    color: #ffff;
+    background:transparent;
+    border: 2px solid var(--light-blue);
     border-radius: 0;
     transition: .3s;
     @media (max-width: 576px){
@@ -398,10 +398,10 @@ a:focus {
     margin-right: 5px;
 }
 
-.carousel .carousel-text .btn:hover {
+/*.carousel .carousel-text .btn:hover {
     color: var(--light-blue);
     background: #ffffff;
-}
+}*/
 
 .carousel .carousel-btn .btn:first-child {
     margin-right: 15px;
@@ -632,6 +632,8 @@ a:focus {
 }
 
 
+
+
 /*******************************/
 /********** About CSS **********/
 /*******************************/
@@ -840,6 +842,7 @@ a:focus {
 .service .service-item p {
     margin-bottom: 10px;
     font-size: 16px;
+    
 }
 
 .service .service-item a {
@@ -1912,8 +1915,8 @@ input[id^="lcc-"]:disabled + span {
     font-size: 16px;
     letter-spacing: 1px;
     color: #ffffff;
-    background: var(--light-blue);
-    border: 2px solid #ffffff;
+    background: transparent;
+    border: 2px solid  var(--light-blue);
     border-radius: 0;
     transition: .3s;
     font-weight: bold;

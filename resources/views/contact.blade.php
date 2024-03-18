@@ -138,7 +138,7 @@
 
                     <div class="carousel-text" style="padding: 5em 0em 0em 2em">
 
-                        <h1 style="text-transform: uppercase; font-weight: 900; color :#092a49">Contact</h1>
+                        <h1 style="text-transform: uppercase; font-weight: 900; color :white">Contact</h1>
 
                     </div>
                 </div>
@@ -162,8 +162,8 @@
     <section class="contact spad">
         <div class="container">
             <div class="section-header">
-                <h2>Contactez-nous pour toute question</h2>
-                <p>Contact</p>
+                <h2 style="color:black">Contactez-nous pour toutes questions</h2>
+                <p  >Contact</p>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6">

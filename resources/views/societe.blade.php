@@ -91,7 +91,7 @@
 
                     <div class="carousel-text" style="padding: 5em 0em 0em 2em">
 
-                        <h1 style="text-transform: uppercase; font-weight: 900; color :#092a49">Societe</h1>
+                        <h1 style="text-transform: uppercase; font-weight: 900; color :white">Societe</h1>
 
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                 <div class="col-md-6">
                     <div class="section-header">
                         <p>
-                        <h2 >Notre histoire?</h2>
+                        <h2 style="color: black" >Notre histoire?</h2>
                         <p style="color:white"> Our Feature</p>
                     </div>
                     <p style=" font-size: 16px;  color : black ;  text-align: justify" >
@@ -198,7 +198,8 @@
             <div class="col-lg-3 col-md-5">
                 
                 <div class="fact-item">
-                    <h2  >98% clients Satifaites</h2>
+                    <h2 style="font-size:25px">98%</h2>
+                    <h2 > clients Satifaites</h2>
 
                     <div class="about-text">
                         <p>
@@ -216,7 +217,8 @@
 
             <div class="col-lg-3 col-md-6">
                 <div class="fact-item">
-                    <h2  >16 ans d’expertise </h2>
+                    <h2 style="font-size:25px">16 ans</h2>
+                    <h2  > d’expertise </h2>
                     <div class="about-text">
                         <p>
                             Un ADN identifié par le partage des connaissances et des savoir faire</p>
@@ -226,6 +228,7 @@
             </div>
                     <div class="col-lg-3 col-md-6">
                 <div class="fact-item">
+                    <h2 style="font-size:25px">280</h2>
                     <h2 >280 Projets menés à travers le monde </h2>
                     <div class="about-text">
                         <p>
@@ -237,7 +240,8 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="fact-item">
-                    <h2  >2000 Interventions par an</h2>
+                    <h2 style="font-size:25px">2000</h2>
+                    <h2  > Interventions par an</h2>
                     <div class="about-text">
                         <p>
                                             Une réactivité et une disponibilité affirmé pour des relations de confiances mutuelles 
@@ -268,7 +272,7 @@
             <div class="besoin">
 
 
-                <a class="btn2" href="/contact">Començons ensemble</a>
+                <a class="btn2" href="/contact">Commençons ensemble</a>
            <!-- <button class="btn2" type="button">Contactez-nous</button>-->
             </div>
         </div>

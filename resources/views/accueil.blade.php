@@ -24,6 +24,7 @@
 
     <!-- Template Stylesheet  -->
     <link href="{{ asset('mainassets2/css/style.css') }}" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/blanka" rel="stylesheet">
 </head>
 
 
@@ -97,7 +98,7 @@
                         <img style="height: 12em" src="{{ asset('mainassets2/img/IDS-Logo.png') }}" alt="IDS">
                     </div>
                     <h1 style="text-transform: uppercase; font-weight: 900">Informatique</h1>
-                    <p style="text-transform: uppercase ; letter-spacing: 0.55em;">
+                    <p style="text-transform: uppercase ; letter-spacing: 0.55em; font-family:blanka">
                         L'informatique Autrement
                     </p>
                     <div class="carousel-btn">
@@ -139,7 +140,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="section-header">
-                        <h2>Notre ADN ?</h2>
+                        <h2 style="color:black">Notre ADN ?</h2>
                         <p style="color:white">
                             En savoir plus sur nous</p>
 
@@ -272,8 +273,8 @@
     <div id="services" class="service">
         <div class="container">
             <div class="section-header">
-                <h2>Nos services</h2>
-                <p>Consultez Services</p>
+                <h2 style="color : black" >Nos services</h2>
+                <p style="color: white">Consultez Services</p>
 
             </div>
 
