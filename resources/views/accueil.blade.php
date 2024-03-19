@@ -990,11 +990,11 @@
                         <div class="col-md-6">
                             <div class="footer-link">
                                 <h2>Accées rapide</h2>
-                                <a href="">Acceuil</a>
-                                <a href="">Société</a>
+                                <a href="#home">Acceuil</a>
+                                <a href="/societe">Société</a>
                                 <a href="#partners">partenaires</a>
-                                <a href="">contact</a>
-                                <a href="">Services</a>
+                                <a href="/contact">contact</a>
+                                <a href="#services">Services</a>
                             </div>
                         </div>
                     </div>
