@@ -1003,10 +1003,9 @@
                     <div class="footer-newsletter">
                         <h2>Restons en Contact !</h2>
                         <div class="footer-social">
-                            <a href="https://www.facebook.com/people/IDS-Informatique/100066943629476/"><i
-                                    class="fab fa-facebook-f">
+                                 <!--<a href=""><i class="fab fa-facebook-f">
                                     <p> Facebook</p>
-                                </i></a>
+                                </i></a> --->
                             <a href=""><i class="fab fa-linkedin-in">
                                     <p> Linkedin</p>
                                 </i></a>

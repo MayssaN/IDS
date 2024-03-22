@@ -315,7 +315,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="footer-contact">
-                                <h2>Our Head Office</h2>
+                                <h2>Mieux nous connaitre</h2>
                                 <p><i class="fa fa-map-marker-alt"></i>14 place claudel, 78180
                                     Montigny-le-Bretonneux</p>
                                 <p><i class="fa fa-phone-alt"></i>01 87 48 00 00 - 01 87 48 00 10</p>
@@ -336,11 +336,11 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="footer-newsletter">
-                        <h2>Contact</h2>
+                        <h2>Restons en Contact !</h2>
                         <div class="footer-social">
-                            <a href=""><i class="fab fa-facebook-f">
+                             <!--<a href=""><i class="fab fa-facebook-f">
                                     <p> Facebook</p>
-                                </i></a>
+                                </i></a> --->
                             <a href=""><i class="fab fa-linkedin-in">
                                     <p> Linkedin</p>
                                 </i></a>
